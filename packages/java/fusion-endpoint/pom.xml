@@ -12,7 +12,7 @@
     <groupId>com.vaadin</groupId>
     <artifactId>fusion-endpoint</artifactId>
     <name>Fusion Endpoint</name>
-    <version>${flow.version}</version>
+    <version>23.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -22,7 +22,6 @@
         <swagger.codegen.version>3.0.20</swagger.codegen.version>
         <swagger.codegen.generators.version>1.0.20</swagger.codegen.generators.version>
         <hibernate.validator.version>6.2.3.Final</hibernate.validator.version>
-        <slf4j.version>1.7.36</slf4j.version>
     </properties>
 
     <dependencies>
@@ -40,7 +39,6 @@
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
-            <version>3.1.0</version>
         </dependency>
 
         <!-- Library dependencies -->
